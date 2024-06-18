@@ -10,13 +10,13 @@ const CopyRightsText = () => {
   return (
     <p className={s.copyRights}>
       <span>{t(`${copyRightTrans}.designedBy`)}</span>
-      <a href={designerProfile} target="_blank">
-        Code Warlock
-      </a>
+      {/* <a href={designerProfile} target="_blank">
+        Dimeji
+      </a> */}
 
       <span>{t(`${copyRightTrans}.codedBy`)}</span>
       <a href={developerProfile} target="_blank">
-        Lazy Programmer
+      Dimeji
       </a>
     </p>
   );
