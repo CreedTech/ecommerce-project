@@ -72,7 +72,7 @@ const Footer = () => {
          
         </section>
 
-        <CopyRightsText />
+        {/* <CopyRightsText /> */}
       </div>
 
     </footer>
