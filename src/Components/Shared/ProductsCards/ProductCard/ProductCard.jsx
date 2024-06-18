@@ -88,7 +88,7 @@ const ProductCard = ({
 
       <ProductCardInfo
         product={product}
-        showColors={showColors}
+        showColors={false}
         navigateToProductDetails={navigateToProductDetails}
       />
     </div>
