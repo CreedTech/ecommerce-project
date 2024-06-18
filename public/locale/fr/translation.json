@@ -278,9 +278,8 @@
   "aboutPage": {
     "heroSection": {
       "heading": "Notre histoire",
-      "paragraphOne": "Lancé en 2015, Dales est le principal marché en ligne d'Asie du Sud avec une présence active au Bangladesh. Soutenu par une large gamme de solutions marketing, de données et de services adaptées, Dales compte 10 500 vendeurs et 300 marques et dessert 3 millions de clients dans la région.",
-      "paragraphTwo": "Dales propose plus d'un million de produits, en pleine croissance. Dales offre une gamme diversifiée de catégories allant de la consommation.",
-      "imageAlt": "deux jeunes femmes heureuses de faire du shopping"
+      "paragraphOne": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rem dolores optio quae ducimus inventore magni perspiciatis quibusdam nobis voluptas labore..",
+      "paragraphTwo": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rem dolores optio quae ducimus inventore magni perspiciatis quibusdam nobis voluptas labore."
     },
     "cardInfo": {
       "aboutCardsInfo1": "Vendeurs actifs sur notre site",
@@ -288,20 +287,7 @@
       "aboutCardsInfo3": "Clients actifs sur notre site",
       "aboutCardsInfo4": "Ventes brutes annuelles sur notre site"
     },
-    "ourMembersData": {
-      "founderChairman": {
-        "name": "Tom Cruise",
-        "jobTitle": "Fondateur et Président"
-      },
-      "managingDirector": {
-        "name": "Emma Watson",
-        "jobTitle": "Directrice Générale"
-      },
-      "productDesigner": {
-        "name": "Will Smith",
-        "jobTitle": "Designer Produit"
-      }
-    },
+   
     "featuresSectionData": {
       "car": {
         "iconAlt": "Voiture",

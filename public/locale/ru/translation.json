@@ -278,8 +278,8 @@
   "aboutPage": {
     "heroSection": {
       "heading": "Наша история",
-      "paragraphOne": "Запущенный в 2015 году, Dales является крупнейшим онлайн-рынком Южной Азии с активным присутствием в Бангладеш. Поддерживаемый широким спектром индивидуальных маркетинговых, данных и сервисных решений, Dales имеет 10 500 продавцов и 300 брендов, обслуживает 3 миллиона клиентов по всему региону.",
-      "paragraphTwo": "У Dales есть более миллиона товаров в наличии, и их число быстро растет. Dales предлагает разнообразный ассортимент в категориях, начиная от потребительских товаров.",
+      "paragraphOne": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rem dolores optio quae ducimus inventore magni perspiciatis quibusdam nobis voluptas labore.",
+      "paragraphTwo": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rem dolores optio quae ducimus inventore magni perspiciatis quibusdam nobis voluptas labore.",
       "imageAlt": "две молодые женщины счастливы с покупками"
     },
     "cardInfo": {
@@ -288,20 +288,7 @@
       "aboutCardsInfo3": "Активные клиенты на нашем сайте",
       "aboutCardsInfo4": "Годовой валовый оборот на нашем сайте"
     },
-    "ourMembersData": {
-      "founderChairman": {
-        "name": "Том Круз",
-        "jobTitle": "Основатель и председатель"
-      },
-      "managingDirector": {
-        "name": "Эмма Уотсон",
-        "jobTitle": "Исполнительный директор"
-      },
-      "productDesigner": {
-        "name": "Уилл Смит",
-        "jobTitle": "Дизайнер продукта"
-      }
-    },
+
     "featuresSectionData": {
       "car": {
         "iconAlt": "Машина",

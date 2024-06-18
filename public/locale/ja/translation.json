@@ -278,8 +278,8 @@
   "aboutPage": {
     "heroSection": {
       "heading": "私たちの物語",
-      "paragraphOne": "2015年に立ち上げられたDalesは、バングラデシュに積極的に参加している南アジアのプレミアムオンラインショッピングマーケットプレイスです。 特製のマーケティング、データ、およびサービスソリューションをサポートすることにより、Dalesには10,500人のセラーと300ブランドがあり、この地域全体で300万人の顧客をサポートしています。",
-      "paragraphTwo": "Dalesには100万以上の製品があり、非常に速い成長を遂げています。 Dalesは、消費者向けからカテゴリの多様なアソートメントを提供しています。",
+      "paragraphOne": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rem dolores optio quae ducimus inventore magni perspiciatis quibusdam nobis voluptas labore.。",
+      "paragraphTwo": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rem dolores optio quae ducimus inventore magni perspiciatis quibusdam nobis voluptas labore.",
       "imageAlt": "買い物をして幸せな2人の若い女性"
     },
     "cardInfo": {
@@ -288,20 +288,7 @@
       "aboutCardsInfo3": "サイト上で活動中の顧客",
       "aboutCardsInfo4": "サイト上の年間総売上高"
     },
-    "ourMembersData": {
-      "founderChairman": {
-        "name": "トム・クルーズ",
-        "jobTitle": "創業者兼会長"
-      },
-      "managingDirector": {
-        "name": "エマ・ワトソン",
-        "jobTitle": "マネージングディレクター"
-      },
-      "productDesigner": {
-        "name": "ウィル・スミス",
-        "jobTitle": "プロダクトデザイナー"
-      }
-    },
+ 
     "featuresSectionData": {
       "car": {
         "iconAlt": "車",

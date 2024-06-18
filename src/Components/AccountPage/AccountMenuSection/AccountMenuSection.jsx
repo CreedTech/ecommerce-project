@@ -31,17 +31,17 @@ const AccountMenuSection = () => {
               <NavLink to="/profile">{t(`${accountMenu}.profile`)}</NavLink>
             </li>
 
-            <li>
+            {/* <li>
               <a href="#">{t(`${accountMenu}.addressBook`)}</a>
             </li>
 
             <li>
               <a href="#">{t(`${accountMenu}.paymentOptions`)}</a>
-            </li>
+            </li> */}
           </ul>
         </section>
 
-        <section className={s.section}>
+        {/* <section className={s.section}>
           <h2>{t(`${accountMenu}.myOrders`)}</h2>
 
           <ul>
@@ -53,7 +53,7 @@ const AccountMenuSection = () => {
               <a href="#">{t(`${accountMenu}.returns`)}</a>
             </li>
           </ul>
-        </section>
+        </section> */}
       </nav>
     </>
   );

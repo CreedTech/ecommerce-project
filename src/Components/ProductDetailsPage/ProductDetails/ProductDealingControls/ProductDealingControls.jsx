@@ -90,13 +90,13 @@ const ProductDealingControls = ({ data }) => {
       </div>
 
       <div className={s.wrapper}>
-        <button
+        {/* <button
           type="button"
           className={s.buyButton}
           onClick={handleBuyProduct}
         >
           {t("buttons.buyNow")}
-        </button>
+        </button> */}
 
         <button
           type="button"

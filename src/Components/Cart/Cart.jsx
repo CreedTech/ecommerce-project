@@ -29,8 +29,8 @@ const Cart = () => {
             <CartButtons />
 
             <div className={s.wrapper}>
-              <AddCoupon />
-              <CartInfoMenu />
+              {/* <AddCoupon /> */}
+              {/* <CartInfoMenu /> */}
             </div>
           </div>
         </main>

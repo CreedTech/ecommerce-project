@@ -5,7 +5,6 @@ import PagesHistory from '../Shared/MiniComponents/PagesHistory/PagesHistory';
 import s from './About.module.scss';
 import AboutHeroSection from './HeroSection/AboutHeroSection';
 import AboutInfoCards from './InfoCards/AboutInfoCards';
-import OurMembersSection from './OurMembersSection/OurMembersSection';
 
 const About = () => {
   const { t } = useTranslation();
@@ -31,7 +30,7 @@ const About = () => {
 
         <div className="container">
           <AboutInfoCards />
-          <OurMembersSection />
+          {/* <OurMembersSection /> */}
           <FeaturedSectionFeatures />
         </div>
       </main>

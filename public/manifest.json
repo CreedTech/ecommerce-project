@@ -1,7 +1,7 @@
 {
   "registerType": "prompt",
-  "name": "E-Commerce",
-  "short_name": "E-Commerce",
+  "name": "Daltes",
+  "short_name": "Daltes",
   "description": "Effortless online shopping: curated collections, easy cart & wishlist, detailed descriptions, intuitive interface. Shop smarter today.",
   "start_url": "/",
   "scope": "/",

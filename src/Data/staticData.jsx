@@ -132,52 +132,10 @@ export const aboutCardsInfo = [
     translationKey: "aboutCardsInfo3",
     id: uuid(),
   },
-  {
-    iconName: "moneyBag",
-    number: "25k",
-    text: "Anual gross sale in our site",
-    translationKey: "aboutCardsInfo4",
-    id: uuid(),
-  },
+
 ];
 
-export const ourMembersData = [
-  {
-    name: "Tom Cruise",
-    jobTitle: "Founder & Chairman",
-    img: member1Img,
-    socialMedia: {
-      twitter: "https://twitter.com/",
-      instagram: "https://www.instagram.com/",
-      linkedin: "https://www.linkedin.com/",
-    },
-    id: uuid(),
-  },
 
-  {
-    name: "Emma Watson",
-    jobTitle: "Managing Director",
-    img: member2Img,
-    socialMedia: {
-      twitter: "https://twitter.com/",
-      instagram: "https://www.instagram.com/",
-      linkedin: "https://www.linkedin.com/",
-    },
-    id: uuid(),
-  },
-
-  {
-    name: "Will Smith",
-    jobTitle: "Product Designer",
-    img: member3Img,
-    socialMedia: {
-      twitter: "https://twitter.com/",
-      instagram: "https://www.instagram.com/",
-      linkedin: "https://www.linkedin.com/",
-    },
-    id: uuid(),
-  },
-];
 
 export const paymentCards = [
   {

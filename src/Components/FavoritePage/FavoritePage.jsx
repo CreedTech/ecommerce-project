@@ -23,7 +23,7 @@ const FavoritePage = () => {
       <div className="container">
         <main className={s.favoritePage} id="favorite-page">
           <section className={s.favoritePageContent}>
-            <FavoritePageHeader />
+            {/* <FavoritePageHeader /> */}
 
             <FavoriteProducts />
           </section>

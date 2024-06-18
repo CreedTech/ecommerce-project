@@ -302,20 +302,7 @@
       "aboutCardsInfo3": "हमारी साइट पर सक्रिय ग्राहकों",
       "aboutCardsInfo4": "हमारी साइट पर वार्षिक कुल बिक्री"
     },
-    "ourMembersData": {
-      "founderChairman": {
-        "name": "टॉम क्रूज़",
-        "jobTitle": "संस्थापक और अध्यक्ष"
-      },
-      "managingDirector": {
-        "name": "एमा वॉटसन",
-        "jobTitle": "प्रबंध निदेशक"
-      },
-      "productDesigner": {
-        "name": "विल स्मिथ",
-        "jobTitle": "उत्पाद डिज़ाइनर"
-      }
-    },
+   
     "featuresSectionData": {
       "car": {
         "iconAlt": "कार",

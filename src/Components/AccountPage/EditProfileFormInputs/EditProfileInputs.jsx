@@ -6,8 +6,12 @@ import s from "./EditProfileInputs.module.scss";
 
 const EditProfileInputs = () => {
   const { loginInfo } = useSelector((state) => state.user);
+  console.log('loginInfo here');
+  console.log(loginInfo);
   const { username, emailOrPhone, address } = loginInfo;
-  const firstLastUserName = username.split(" ");
+  console.log(username);
+  console.log(emailOrPhone);
+  const firstLastUserName = username?.split(" ");
   const [firstName, setFirstName] = useState(firstLastUserName[0]);
   const [lastName, setLastName] = useState(firstLastUserName[1]);
   const [emailOrPhoneState, setEmailOrPhoneState] = useState(emailOrPhone);

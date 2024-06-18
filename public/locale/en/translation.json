@@ -278,9 +278,9 @@
   "aboutPage": {
     "heroSection": {
       "heading": "Our Story",
-      "paragraphOne": "Launched in 2015, Dales is South Asia’s premier online shopping marketplace with an active presence in Bangladesh. Supported by a wide range of tailored marketing, data, and service solutions, Dales has 10,500 sellers and 300 brands and serves 3 million customers across the region.",
-      "paragraphTwo": "Dales has more than 1 Million products to offer, growing very fast. Dales offers a diverse assortment in categories ranging from consumer.",
-      "imageAlt": "two young women happy with shopping"
+      "paragraphOne": "    Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor harum, facere nisi sit tempora culpa sint non, nesciunt, maiores hic voluptatibus repudiandae itaque earum amet praesentium iure! A, quaerat doloribus? Unde tempore ad molestias deserunt quod eaque quaerat placeat dolores earum omnis numquam consectetur deleniti alias delectus, tempora laboriosam et.Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rem dolores optio quae ducimus inventore magni perspiciatis quibusdam nobis voluptas labore.",
+      "paragraphTwo": "    Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor harum, facere nisi sit tempora culpa sint non, nesciunt, maiores hic voluptatibus repudiandae itaque earum amet praesentium iure! A, quaerat doloribus? Unde tempore ad molestias deserunt quod eaque quaerat placeat dolores earum omnis numquam consectetur deleniti alias delectus, tempora laboriosam et.    Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor harum, facere nisi sit tempora culpa sint non, nesciunt, maiores hic voluptatibus repudiandae itaque earum amet praesentium iure! A, quaerat doloribus? Unde tempore ad molestias deserunt quod eaque quaerat placeat dolores earum omnis numquam consectetur deleniti alias delectus, tempora laboriosam et.Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rem dolores optio quae ducimus inventore magni perspiciatis quibusdam nobis voluptas labore.",
+      "imageAlt": "background image"
     },
     "cardInfo": {
       "aboutCardsInfo1": "Sellers active on our site",
@@ -288,20 +288,7 @@
       "aboutCardsInfo3": "Customers active on our site",
       "aboutCardsInfo4": "Annual gross sales on our site"
     },
-    "ourMembersData": {
-      "founderChairman": {
-        "name": "Tom Cruise",
-        "jobTitle": "Founder & Chairman"
-      },
-      "managingDirector": {
-        "name": "Emma Watson",
-        "jobTitle": "Managing Director"
-      },
-      "productDesigner": {
-        "name": "Will Smith",
-        "jobTitle": "Product Designer"
-      }
-    },
+  
     "featuresSectionData": {
       "car": {
         "iconAlt": "Car",

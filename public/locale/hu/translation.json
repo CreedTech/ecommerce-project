@@ -288,20 +288,7 @@
       "aboutCardsInfo3": "Ügyfelek aktív weboldalunkon",
       "aboutCardsInfo4": "Éves bruttó árbevétel weboldalunkon"
     },
-    "ourMembersData": {
-      "founderChairman": {
-        "name": "Tom Cruise",
-        "jobTitle": "Alapító és elnök"
-      },
-      "managingDirector": {
-        "name": "Emma Watson",
-        "jobTitle": "Ügyvezető igazgató"
-      },
-      "productDesigner": {
-        "name": "Will Smith",
-        "jobTitle": "Terméktervező"
-      }
-    },
+  
     "featuresSectionData": {
       "car": {
         "iconAlt": "Autó",

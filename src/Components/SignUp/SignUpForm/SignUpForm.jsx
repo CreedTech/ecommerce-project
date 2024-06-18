@@ -70,6 +70,7 @@ const SignUpForm = () => {
         JSON.stringify({
           loginInfo: {
             isSignIn: true,
+            ...formData
           },
           signedUpUsers: uniqueSignedUpUsers,
         })
@@ -80,6 +81,12 @@ const SignUpForm = () => {
       dispatch(setLoginData(formData));
       signInAlert();
     } else {
+      const alertText = 'Leave space between full name';
+      const alertState = 'error';
+  
+      setTimeout(() => {
+        dispatch(showAlert({ alertText, alertState }));
+      }, 1500);
     }
   }
 

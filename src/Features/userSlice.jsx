@@ -11,6 +11,10 @@ const initialState = initialStateLocal
   : {
       loginInfo: {
         isSignIn: false,
+        username: '',
+        emailOrPhone: '',
+      password: '',
+      address: "",
       },
       signedUpUsers: [],
     };

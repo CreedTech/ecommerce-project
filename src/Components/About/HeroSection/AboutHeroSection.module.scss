@@ -14,7 +14,9 @@
 }
 
 .content {
-  width: 525px;
+  margin: 0 auto;
+  align-items: center;
+  width: 60%;
   min-width: 500px;
 }
 
@@ -72,7 +74,7 @@
 
 .imgHolder {
   flex-grow: 1;
-  width: 700px;
+  width: 150px;
   height: 708px;
   user-select: none;
 }

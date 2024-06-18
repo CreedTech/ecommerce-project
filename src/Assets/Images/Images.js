@@ -35,6 +35,7 @@ import visaCard from "./visa.webp";
 import womanWithHat from "./woman-with-hat.webp";
 import member2Img from "./woman.webp";
 import womenShopping from "./women-shopping.webp";
+import aboutUs from "./aboutus.jpeg";
 
 export {
   appStore,
@@ -74,4 +75,5 @@ export {
   visaCard,
   womanWithHat,
   womenShopping,
+  aboutUs
 };
