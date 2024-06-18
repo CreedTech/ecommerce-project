@@ -14,9 +14,7 @@ export default defineConfig({
   build: {
     sourcemap: true,
   },
-  define: {
-    "process.env": {},
-  },
+ 
   resolve: {
     alias: {
       src: "/src",
