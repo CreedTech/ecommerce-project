@@ -9,7 +9,7 @@ const PaymentOptionsSelection = () => {
 
   return (
     <div className={s.paymentOptions}>
-      <div className={s.input}>
+      {/* <div className={s.input}>
         <div className={s.wrapper}>
           <input
             type="radio"
@@ -27,7 +27,7 @@ const PaymentOptionsSelection = () => {
         </div>
 
         <PaymentCards />
-      </div>
+      </div> */}
 
       <div className={s.input}>
         <div className={s.wrapper}>

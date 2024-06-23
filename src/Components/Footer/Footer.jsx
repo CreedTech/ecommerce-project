@@ -2,9 +2,12 @@ import { useTranslation } from 'react-i18next';
 import { Link } from 'react-router-dom';
 import CopyRightsText from './CopyRightsText/CopyRightsText';
 import s from './Footer.module.scss';
+import { useSelector } from "react-redux";
 
 const Footer = () => {
   const { t } = useTranslation();
+  const { loginInfo } = useSelector((state) => state.user);
+  const { username, isSignIn } = loginInfo;
   const section = 'footer.section';
 
   return (
@@ -15,29 +18,30 @@ const Footer = () => {
             <b>
               <Link to="/">Dales</Link>
             </b>
-            <ul style={{paddingLeft:0}}>
+            <ul style={{ paddingLeft: 0 }}>
 
-            <li>
+              <li>
                 <a href="mailto:dales@gmail.com">dales@gmail.com</a>
               </li>
               <li>
                 <a href="tel:+123456788">+123 456 789</a>
               </li>
             </ul>
-         
+
           </section>
 
 
           <section className={s.section2}>
             <b>{t(`${section}3.account`)}</b>
 
-            <ul style={{paddingLeft:0}}>
+            <ul style={{ paddingLeft: 0 }}>
               <li>
                 <Link to="/profile">{t(`${section}3.myAccount`)}</Link>
               </li>
-              <li>
+              {!isSignIn && <li>
                 <Link to="/signup">{t(`${section}3.loginRegister`)}</Link>
-              </li>
+              </li>}
+
               <li>
                 <Link to="/cart">{t(`${section}3.cart`)}</Link>
               </li>
@@ -53,13 +57,8 @@ const Footer = () => {
           <section className={s.section4}>
             <b>{t(`${section}4.quickLink`)}</b>
 
-            <ul style={{paddingLeft:0}}>
-              <li>
-                <Link to="/privacy">{t(`${section}4.privacyPolicy`)}</Link>
-              </li>
-              <li>
-                <Link to="/terms">{t(`${section}4.termsOfUse`)}</Link>
-              </li>
+            <ul style={{ paddingLeft: 0 }}>
+
               <li>
                 <Link to="/about">About</Link>
               </li>
@@ -69,7 +68,7 @@ const Footer = () => {
             </ul>
           </section>
 
-         
+
         </section>
 
         <CopyRightsText />

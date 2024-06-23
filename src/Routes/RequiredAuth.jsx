@@ -6,8 +6,6 @@ import { showAlert } from "../Features/globalSlice";
 
 const RequiredAuth = ({ children }) => {
   const { loginInfo } = useSelector((state) => state.user);
-  console.log('loginInfo');
-  console.log(loginInfo);
   const { isSignIn } = loginInfo;
   const location = useLocation();
   const dispatch = useDispatch();

@@ -23,7 +23,7 @@ const WishList = () => {
       <div className="container">
         <main className={s.wishListPage} id="wishlist-page">
           <section className={s.wishList}>
-            {/* <WishlistPageHeader /> */}
+            <WishlistPageHeader />
             <WishProducts />
           </section>
 

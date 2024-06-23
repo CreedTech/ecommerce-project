@@ -138,12 +138,7 @@ export const aboutCardsInfo = [
 
 
 export const paymentCards = [
-  {
-    img: bkashCard,
-    alt: "Bkash card",
-    link: "https://www.bkash.com/en/products-services/visa-card-to-bkash",
-    id: uuid(),
-  },
+
   {
     img: visaCard,
     alt: "Visa card",
@@ -156,12 +151,7 @@ export const paymentCards = [
     link: "https://www.mastercard.us/en-us.html",
     id: uuid(),
   },
-  {
-    img: nagadCard,
-    alt: "Nagad card",
-    link: "https://www.nagad.com.bd/services/?service=add-money-from-card",
-    id: uuid(),
-  },
+ 
 ];
 
 export const LANGUAGES = [

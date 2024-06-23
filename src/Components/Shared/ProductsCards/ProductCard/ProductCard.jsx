@@ -82,7 +82,7 @@ const ProductCard = ({
             product={product}
             removeFrom={removeFrom}
           />
-          {/* <AddToCartButton hoverDataAttribute={true} product={product} /> */}
+          <AddToCartButton hoverDataAttribute={true} product={product} />
         </div>
       </div>
 
