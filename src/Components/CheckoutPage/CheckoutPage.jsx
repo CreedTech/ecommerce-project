@@ -10,9 +10,9 @@ import PaymentSection from './PaymentSection/PaymentSection';
 import { showAlert } from 'src/Features/globalSlice';
 import { useState } from 'react';
 import FadeInOutLoading from '../Shared/Loaders/spinnerLoading';
-import { setEmptyArrays } from "src/Features/productsSlice";
-import { useNavigate } from "react-router-dom";
-
+import { setEmptyArrays } from 'src/Features/productsSlice';
+import { useNavigate } from 'react-router-dom';
+import { addToArray } from '../../Features/productsSlice';
 
 const CheckoutPage = () => {
   useScrollOnMount(160);
@@ -20,7 +20,9 @@ const CheckoutPage = () => {
   const dispatch = useDispatch();
   const navigateTo = useNavigate();
   const [loading, setLoading] = useState(false);
-  const { saveBillingInfoToLocal } = useSelector((state) => state.products);
+  const { saveBillingInfoToLocal, cartProducts } = useSelector(
+    (state) => state.products
+  );
   const { values: billingValues, handleChange } = useFormData({
     initialValues: {
       firstName: '',
@@ -43,25 +45,34 @@ const CheckoutPage = () => {
       path: '/profile',
     },
   ];
-
   function handleSubmitPayment(e) {
     e.preventDefault();
     if (loading) return;
     setLoading(true);
-    if (!saveBillingInfoToLocal) localStorage.removeItem('billingInfo');
+  
+    // Remove billing info if saveBillingInfoToLocal is false
+    if (!saveBillingInfoToLocal) {
+      localStorage.removeItem('billingInfo');
+    }
+  
     setTimeout(() => {
+      // Show completion alert
       orderCompletionAlert(dispatch, t);
       setLoading(false);
+  
+      // Save cartProducts to local storage
+      localStorage.setItem('trackingOrder', JSON.stringify(cartProducts));
+  
+      // Clear cartProducts in Redux store
       const arraysToEmpty = ['cartProducts'];
       const emptyArraysAction = setEmptyArrays({ keys: arraysToEmpty });
-  
       dispatch(emptyArraysAction);
   
-      navigateTo("/feedback");
+      // Navigate to feedback page
+      navigateTo('/feedback');
     }, 3000);
-   
-    // removeFromCart();
   }
+  
 
   function removeFromCart() {
     const arraysToEmpty = ['cartProducts'];

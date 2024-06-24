@@ -3,6 +3,7 @@ import AccountPage from "../Components/AccountPage/AccountPage";
 import Cart from "../Components/Cart/Cart";
 import CheckoutPage from "../Components/CheckoutPage/CheckoutPage";
 import FeedBackPage from "../Components/CheckoutPage/FeedBackPage";
+import TrackOrder from "../Components/CheckoutPage/TrackOrder";
 import Contact from "../Components/Contact/Contact";
 import FavoritePage from "../Components/FavoritePage/FavoritePage";
 import Home from "../Components/Home/Home";
@@ -31,5 +32,6 @@ export const ROUTES_CONFIG = [
   { path: "/profile", element: <AccountPage /> },
   { path: "/search", element: <SearchPage /> },
   { path: "/feedback", element: <FeedBackPage /> },
+  { path: "/track-order", element: <TrackOrder /> },
   { path: "*", element: <NotFoundPage /> },
 ];
